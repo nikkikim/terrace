@@ -10,6 +10,23 @@
     </head>
 
     <body>
+            
+<div>
+            <model-viewer
+                class="vrContent"
+                style="width:100vw;height:150vw;max-width:95%;"
+                src="uni.gltf"
+                ios-src="uni.usdz"
+                alt=""
+                shadow-intensity="0.1"
+                exposure=".7"
+                camera-controls
+                environment-image="background.jpg"
+                auto-rotate
+                ar>
+                <input type="image" src="vr_new.png" slot="ar-button" style="border: none; position: absolute; bottom:3vw;right:2vw;"/>
+            </model-viewer>
+            </div>
             <div>
             <model-viewer
                 class="vrContent"
@@ -29,21 +46,6 @@
    
 
 
-            <div>
-            <model-viewer
-                class="vrContent"
-                style="width:100vw;height:150vw;max-width:95%;"
-                src="uni.gltf"
-                ios-src="uni.usdz"
-                alt=""
-                shadow-intensity="0.1"
-                exposure=".7"
-                camera-controls
-                environment-image="background.jpg"
-                auto-rotate
-                ar>
-                <input type="image" src="vr_new.png" slot="ar-button" style="border: none; position: absolute; bottom:3vw;right:2vw;"/>
-            </model-viewer>
-            </div>
+            
     </body>
 </html>
